@@ -4,14 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сучасна пекарня</title>
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap"
-      rel="stylesheet"
-    />
-    />
     <!-- Styles -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -63,8 +55,8 @@
         <ul>
           <li>
             <article>
-              <h3>Настя</h3>
-              <p class="chef-title">Привіт, я Настя!</p>
+              <h3 class="chef-title">Настя</h3>
+              <p>Привіт, я Настя!</p>
               <p>Вже 10 років, я втілюю у життя цікві та смачні ідеї.</p>
               <p>Я випічу для вас найсмачніші вироби!</p>
             </article>
@@ -88,7 +80,7 @@
           <li>
             <article>
               <h3 class="format-title" lang="en">Walrus</h3>
-              <div>
+              <div class="format-text">
                 <p>Площа: до 120 м2</p>
                 <p>Меню: розширене меню</p>
                 <p>
@@ -102,17 +94,36 @@
           <li>
             <article>
               <h3 class="format-title" lang="en">Horseshoe</h3>
+              <div class="format-text">
+                <p>Площа: до 120 м2</p>
+                <p>Меню: розширене меню</p>
+                <p>
+                  Штат: 2 продавці касири, 2 пекарі, 2 помічника пекаря, 2
+                  офіціанти-різнороби
+                </p>
+                <p>Посадкові місця: є</p>
+              </div>
             </article>
           </li>
           <li>
             <article>
               <h3 class="format-title" lang="en">Handlebar</h3>
+              <div class="format-text">
+                <p>Площа: до 120 м2</p>
+                <p>Меню: розширене меню</p>
+                <p>
+                  Штат: 2 продавці касири, 2 пекарі, 2 помічника пекаря, 2
+                  офіціанти-різнороби
+                </p>
+                <p>Посадкові місця: є</p>
+              </div>
             </article>
           </li>
         </ul>
       </section>
       <section id="contact-section">
         <h2 class="section-title">Приєднуйтеся до мережі пекарень</h2>
+        <p>Заповни форму, щоб ми зв'язалися з тобою!</p>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1270.3195727799102!2d30.5241922!3d50.4478218!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cefc1587fcc9%3A0xb56328d144b23948!2z0J_Rg9C30LDRgtCwINCl0LDRgtCw!5e0!3m2!1suk!2sua!4v1704631992623!5m2!1suk!2sua"
           width="603"
@@ -130,22 +141,30 @@
           <img src="./images/logo.svg" alt="Логотип сучасної пекарні" />
         </a>
         <ul>
-          <li><a href="#">Наші традиції</a></li>
-          <li><a href="#">Шеф-кухарі</a></li>
-          <li><a href="#">Формати</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a class="link" href="#">Наші традиції</a></li>
+          <li><a class="link" href="#">Шеф-кухарі</a></li>
+          <li><a class="link" href="#">Формати</a></li>
+          <li><a class="link" href="#">Контакти</a></li>
         </ul>
       </nav>
       <address>
         <ul>
           <li>
-            <a href="tel:+38(096)0000007">+ 38 (096) 000 00 07</a>
+            <a class="address-link" href="tel:+38(096)0000007"
+              >+ 38 (096) 000 00 07</a
+            >
           </li>
           <li>
-            <a href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a>
+            <a class="address-link" href="mailto:shopbakery@gmail.com"
+              >shopbakery@gmail.com</a
+            >
           </li>
           <li>
-            <a href="https://maps.app.goo.gl/ZQFsYRjBr4bLewKc8" target="_blank">
+            <a
+              class="address-link"
+              href="https://maps.app.goo.gl/ZQFsYRjBr4bLewKc8"
+              target="_blank"
+            >
               Україна, м.Київ, вул. Січових Стрільців 54
             </a>
           </li>
@@ -160,8 +179,10 @@
             </a>
           </li>
         </ul>
-        <a href="#" target="_blank">Політика конфідеціальності </a>
-        <p>&copy; 2022 Дані захищені</p>
+        <a class="address-link" href="#" target="_blank"
+          >Політика конфідеціальності
+        </a>
+        <p class="address-copyright">&copy; 2022 Дані захищені</p>
       </address>
     </footer>
   </body>

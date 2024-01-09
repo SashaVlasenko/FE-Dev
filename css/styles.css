@@ -1,3 +1,31 @@
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-weight: 300;
+  src: url("../fonts/poppins-v20-latin-300.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-weight: 600;
+  src: url("../fonts/poppins-v20-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-weight: 900;
+  src: url("../fonts/poppins-v20-latin-900.woff2") format("woff2");
+}
+
 :root {
   --color-primary-dark: #31261a;
   --color-primary-light: #faf4ea;
@@ -14,6 +42,10 @@ body {
   line-height: 1.5;
 }
 
+address {
+  font-style: normal;
+}
+
 ul {
   list-style-type: none;
 }
@@ -25,7 +57,9 @@ ul {
   background-color: var(--color-brand-light);
   border: 2px solid var(--color-brand-light);
   border-radius: 8px;
+  cursor: pointer;
 }
+
 .button:hover {
   color: var(--color-brand-dark);
   background-color: transparent;
@@ -95,4 +129,25 @@ ul {
 .format-title {
   font-size: 24px;
   font-weight: 600;
+}
+
+.format-text {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* Footer */
+.address-link {
+  color: var(--color-primary-light);
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.address-link:hover {
+  color: var(--color-brand-light);
+}
+
+.address-copyright {
+  font-size: 14px;
 }
